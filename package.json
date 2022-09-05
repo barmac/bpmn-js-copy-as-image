@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "all": "npm test",
+    "start": "crosse-env TEST_BROWSERS=Debug npm run dev",
     "dev": "karma start",
     "test": "karma start --single-run --no-auto-watch"
   },
@@ -27,6 +28,7 @@
   "devDependencies": {
     "bpmn-js": "^9.4.0",
     "chai": "^4.3.6",
+    "cross-env": "^7.0.3",
     "downloadjs": "^1.4.7",
     "file-drops": "^0.4.0",
     "file-open": "^0.1.1",

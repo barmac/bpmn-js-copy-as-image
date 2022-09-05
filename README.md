@@ -64,7 +64,7 @@ const png = await elementsRenderer.renderAsPNG([ 'Task_1' ]);
 npm install
 
 # run in browser
-npm run dev
+npm start
 ```
 
 Go to http://localhost:9876/debug.html.
