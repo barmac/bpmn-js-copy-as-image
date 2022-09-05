@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "A bpmn-js extension which allows to render selected elements as images",
   "main": "src/index.js",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "all": "npm test",
     "dev": "karma start",
